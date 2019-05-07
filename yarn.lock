@@ -1132,10 +1132,10 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.5.1.tgz#a38f69c62528d56ba7bd1f91335a8004988d72f7"
   integrity sha512-mNhVdZHdtKHMMxbqzNK3RzkBcN1cux3AvuCYGTvjEIQT2uheH3eCAyYsbMbh2Bq8nXkeOWs1kyDiF7geWRFQ4Q==
 
-"@types/react-color@^2.13.6", "@types/react-color@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@types/react-color/-/react-color-2.14.0.tgz#e01f6069902819fe9f6544375829a485f894206f"
-  integrity sha512-5UfGjUsu7bXop7K064nNrIGgS7wPjGEY7Or9tAE6BLslDtfhRnAlqWo9N2BIntEZ/3KpXlRnt0MBuc+hZJTevw==
+"@types/react-color@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/react-color/-/react-color-3.0.0.tgz#626ae0f3da34338ccae37279de32d1d9828424e4"
+  integrity sha512-vmEFBimsqXc9N3pBNNM2KXtLxgjSGCxrrSiJ8IBeQG4R1u+HMnw+BdxOPEI4EG7ClI+TmL9Yc0aL6S3mdA/RlA==
   dependencies:
     "@types/react" "*"
 
@@ -10530,10 +10530,10 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.1, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-annotation@2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/react-annotation/-/react-annotation-2.1.5.tgz#a063b77aaf0e0f0e6d2b273fe83375043a61b60f"
-  integrity sha512-OUel7AlqzcbCZqSS8gxsdb8EHxec/vTqwH7/cnhnCprcVeQprgUb923g/OcoPH6nzOPEms+AkqmMSo4KyLtGlw==
+react-annotation@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/react-annotation/-/react-annotation-2.1.6.tgz#7fa380014ab2bec49513dc66945fd821bc2b31eb"
+  integrity sha512-r/WT9ylhhTXAbYS/8MJOy/oKgO/G8DQ02fDmeEVPUtPq3VEG1Q7BUGYIJLWgWwNSRmgTLGIo4RIqYbQ9t1f0aA==
   dependencies:
     prop-types "15.6.2"
     viz-annotation "0.0.3"
@@ -11758,10 +11758,10 @@ semiotic-mark@0.3.1:
     prop-types "^15.6.0"
     roughjs-es5 "0.1.0"
 
-semiotic@^1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/semiotic/-/semiotic-1.19.1.tgz#1d1c93b737cfb5aa51f4cce96c13779f0b5aaefb"
-  integrity sha512-xDTMLXCtbqDRWvG2vwQsgdVuXeR98IJ6rncMitmLpcJ31tj4JFCb47WsyYeUNUHHsYlu7yQNWxCxBGVvSuSGeA==
+semiotic@^1.19.7:
+  version "1.19.7"
+  resolved "https://registry.yarnpkg.com/semiotic/-/semiotic-1.19.7.tgz#b495a115d20b0167bc97f56de8a87b72c26e31ad"
+  integrity sha512-Ue1L08jcqx5zNx3+8dcRPkqSxwwgXEW4FJ+QJeX8lb9y0fbTCp90zcBJNYoRTytHUf2WPfy7aMbCrnwTSYT1Mw==
   dependencies:
     "@mapbox/polylabel" "1"
     d3-array "^1.2.0"
@@ -11788,7 +11788,7 @@ semiotic@^1.19.1:
     polygon-offset "0.3.1"
     promise "8.0.1"
     prop-types "15.6.0"
-    react-annotation "2.1.5"
+    react-annotation "^2.1.6"
     regression "^2.0.1"
     roughjs-es5 "0.1.0"
     semiotic-mark "0.3.1"
